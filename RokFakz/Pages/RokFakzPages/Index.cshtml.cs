@@ -21,12 +21,19 @@ namespace RokFakz.Pages.RokFakzPages
 
         public IList<RokFak> RokFak { get;set; } = default!;
 
+    [BindProperty(SupportsGet = true)]
+    public string? SearchString { get; set; }
+
         public async Task OnGetAsync()
         {
-            if (_context.RokFak != null)
+            var rokfaks = from m in _context.RokFak
+                        select m;
+            if (!string.IsNullOrEmpty(SearchString))
             {
-                RokFak = await _context.RokFak.ToListAsync();
+                rokfaks = rokfaks.Where(s => s.Rock.Contains(SearchString));
             }
+
+            RokFak = await rokfaks.ToListAsync();
         }
     }
 }
