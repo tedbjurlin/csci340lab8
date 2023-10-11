@@ -1,0 +1,59 @@
+@page
+@model RokFakz.Pages.RokFakzPages.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>RokFak</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="RokFak.Rock" class="control-label"></label>
+                <input asp-for="RokFak.Rock" class="form-control" />
+                <span asp-validation-for="RokFak.Rock" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RokFak.MohsHardness" class="control-label"></label>
+                <input asp-for="RokFak.MohsHardness" class="form-control" />
+                <span asp-validation-for="RokFak.MohsHardness" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RokFak.Density" class="control-label"></label>
+                <input asp-for="RokFak.Density" class="form-control" />
+                <span asp-validation-for="RokFak.Density" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RokFak.Texture" class="control-label"></label>
+                <input asp-for="RokFak.Texture" class="form-control" />
+                <span asp-validation-for="RokFak.Texture" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RokFak.Color" class="control-label"></label>
+                <input asp-for="RokFak.Color" class="form-control" />
+                <span asp-validation-for="RokFak.Color" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RokFak.Fak" class="control-label"></label>
+                <input asp-for="RokFak.Fak" class="form-control" />
+                <span asp-validation-for="RokFak.Fak" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RokFakz
+build_property.RootNamespace = RokFakz
+build_property.ProjectDir = /home/peanut-brother/school/CSCI340/csci340lab8/RokFakz/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/peanut-brother/school/CSCI340/csci340lab8/RokFakz
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/peanut-brother/school/CSCI340/csci340lab8/RokFakz/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/peanut-brother/school/CSCI340/csci340lab8/RokFakz/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/peanut-brother/school/CSCI340/csci340lab8/RokFakz/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/peanut-brother/school/CSCI340/csci340lab8/RokFakz/Pages/RokFakzPages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUm9rRmFrelBhZ2VzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/peanut-brother/school/CSCI340/csci340lab8/RokFakz/Pages/RokFakzPages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUm9rRmFrelBhZ2VzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/peanut-brother/school/CSCI340/csci340lab8/RokFakz/Pages/RokFakzPages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUm9rRmFrelBhZ2VzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/peanut-brother/school/CSCI340/csci340lab8/RokFakz/Pages/RokFakzPages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUm9rRmFrelBhZ2VzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/peanut-brother/school/CSCI340/csci340lab8/RokFakz/Pages/RokFakzPages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUm9rRmFrelBhZ2VzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/peanut-brother/school/CSCI340/csci340lab8/RokFakz/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/peanut-brother/school/CSCI340/csci340lab8/RokFakz/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/peanut-brother/school/CSCI340/csci340lab8/RokFakz/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/peanut-brother/school/CSCI340/csci340lab8/RokFakz/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-tttmom70zo
